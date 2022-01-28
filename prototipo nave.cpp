@@ -219,7 +219,6 @@ bool Bala::fuera() {
 
 int main() {
 
-	
 	//establecer tamanio de la consola desde codigo 80x35
 	system("MODE CON COLS=80 LINES=35");
 
@@ -230,9 +229,6 @@ int main() {
 	nave.pintar_corazones();
 	nave.pintar();
 
-	Sleep(3500);
-	
-	
 	//Asteroide ast1(10, 4), ast2(4, 8), ast3(15, 10);
 	list<Asteroide*> Asteroides;
 	list<Asteroide*>::iterator itAst;
